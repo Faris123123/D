@@ -1,1 +1,1 @@
-worker: node fx.js
+worker: node Op.js

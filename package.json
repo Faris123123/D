@@ -1,8 +1,8 @@
 {
-  "name": "FINEX",
+  "name": "Op",
   "version": "1.0.0",
   "description": "",
-  "main": "fx.js",
+  "main": "Op.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,14 +1,14 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const child_process = require('child_process');
-var prefix = "!"
+var prefix = "$"
 client.on('ready', () => {
-console.log('Logging into discord Pyth Sama Plz Wait..');
+console.log('Logging into discord Faris Plz Wait..');
 console.log(`
 Login successful.
 
 -----------------
-FENIX - Discord Bot
+Op - Discord Bot
   _____ 
  |  ___|
  | |_   
@@ -24,7 +24,7 @@ ${client.channels.size} channel
 ${client.users.size} users
 
 -----------------
-DONE : FENIX BOT Connected PYTHOR SAMA
+DONE : Op BOT Connected Faris
 ---------------------------------------
 `);
 });
@@ -34,7 +34,7 @@ client.on('ready', () => {
     });
 	const devs = ["326099411853901824"]
  
-const adminprefix =  "!";
+const adminprefix =  "-";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
@@ -72,7 +72,7 @@ client.on('message', message => {
         console.log(`⚠️ Bot restarting... ⚠️`);
         console.log("===============================================\n\n");
         client.destroy();
-        child_process.fork(__dirname + "/fx.js");
+        child_process.fork(__dirname + "/Op.js");
         console.log(`Bot Successfully Restarted`);
     }
  
@@ -588,4 +588,4 @@ client.on('message', async message => {
 
 
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.TOKEN);

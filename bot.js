@@ -30,7 +30,7 @@ DONE : Op BOT Connected Faris
 });
 client.on('ready', () => {
     console.log('Bot Is Ready Now !');
-    client.user.setGame(`News , Brodcasts `,"http://twitch.tv/pythorxxx")
+    client.user.setGame(`Giveaways , Rewards `,"http://twitch.tv/pythorxxx")
     });
 	const devs = ["326099411853901824"]
  
